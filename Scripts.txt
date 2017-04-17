@@ -1,0 +1,12 @@
+javac Book2.java
+jar cf book2.jar Book2.class
+
+
+
+javac Book2.java -d classes
+jar cvf book2.jar -c classes
+
+
+Без classess
+javac Book2.java -d ./
+jar cvf book2.jar -c ./
