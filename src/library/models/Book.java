@@ -12,6 +12,13 @@ public class Book implements Serializable {
     private String isbn;
     private static long serialVersionUID = 2L;
 
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public Book() {
+    }
+
     public String getAuthor() {
         return author;
     }
